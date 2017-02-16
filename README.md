@@ -8,4 +8,5 @@
 ![World Map D3js with socket.io](https://github.com/jassibringit/D3js-world-map-projection/blob/master/public/img/D3%20world%20map%20projection.gif)
 
 ### How to run
+* npm install
 * node server.js
