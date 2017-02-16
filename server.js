@@ -30,7 +30,12 @@ var a = getRandomInRange(-180,180,3)
 
 var numString = a.toString()
     //log the id when new socket connects
-    setInterval(function() {
+    
+
+});
+
+
+setInterval(function() {
 
         io.emit("draw", {
             "color": "white",
@@ -49,6 +54,5 @@ var numString = a.toString()
     }, 4000)
 
 
-});
 
 console.log("Server is running at localhost:3000");
